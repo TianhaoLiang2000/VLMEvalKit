@@ -37,7 +37,6 @@ from .foxbench import FoxBench
 from .gobench import GOBenchDataset
 from .groundingme import GroundingME
 from .gsm8k_v import GSM8KVDataset
-from .hle import HLEDataset
 from .GUI.osworld_g import OSWorld_G
 from .GUI.screenspot import ScreenSpot
 from .GUI.screenspot_pro import ScreenSpot_Pro
@@ -45,6 +44,7 @@ from .GUI.screenspot_v2 import ScreenSpotV2
 from .GUI.vbgd import VBGD
 from .GUI.venusbench import VenusBench_GD
 from .hipho import HiPhODataset
+from .hle import HLEDataset
 from .image_base import ImageBaseDataset, img_root_map
 from .image_caption import ImageCaptionDataset
 from .image_ccocr import CCOCRDataset
