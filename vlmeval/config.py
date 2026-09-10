@@ -331,7 +331,20 @@ api_models = {
         api.Gemini, model="gemini-2.0-flash-lite", temperature=0, retry=10
     ),
     "GeminiFlash2-5": partial(
-        api.Gemini, model="gemini-2.5-flash", temperature=0, retry=10
+        api.Gemini,
+        model="gemini-2.5-flash",
+        backend="genai",
+        audio_input=True,
+        temperature=0,
+        retry=10,
+    ),
+    "GeminiFlash3-6": partial(
+        api.Gemini,
+        model="gemini-3.6-flash",
+        backend="genai",
+        audio_input=True,
+        temperature=0,
+        retry=10,
     ),
     "GeminiPro2-5": partial(
         api.GPT4V,
